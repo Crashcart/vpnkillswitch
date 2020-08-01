@@ -8,9 +8,9 @@ VPN Killswitch is a simple bash script that prevents your real IP address and In
 VPN Killswitch uses `nmcli` to check the status of your VPN connection. In the event that connection is lost, `ifconfig down` is used to disconnect your ethernet adapter. Then throw a reboot.
 
 ### Addtions
-* 'reboot' (soon)
-* 'firewall rules' (soon)
-
+* `reboot` (soon)
+* `firewall rules` (soon)
+* `config file` (Soon)
 
 ### Requirements
  * `nmcli` 
